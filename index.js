@@ -1,10 +1,9 @@
-const display=document.querySelector(".display");
+const display=document.getElementById("calculator");
 
-function appendToDisplay(input){
+function appendToDisplay(){
     display.value += input;
 }
 
-appendToDisplay()
 
 function calculate(){
 
